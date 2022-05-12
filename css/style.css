@@ -1,0 +1,27 @@
+#homePageBackgroundImageDivStyled {
+    background-image: url("../images/background_500.jpg")
+}
+
+@media(min-width:500px) and (max-width:800px) {
+    #homePageBackgroundImageDivStyled {
+        background-image: url("../images/background_800.jpg")
+    }
+}
+
+@media(min-width:801px) and (max-width:1200px) {
+    #homePageBackgroundImageDivStyled {
+        background-image: url("../images/background_1200.jpg")
+    }
+}
+
+@media(min-width:1201px) and (max-width:1500px) {
+    #homePageBackgroundImageDivStyled {
+        background-image: url("../images/background_1500.jpg")
+    }
+}
+
+@media(min-width:1501px) {
+    #homePageBackgroundImageDivStyled {
+        background-image: url("../images/background.jpg")
+    }
+}
